@@ -1,8 +1,8 @@
 import sys, requests, json, configparser, os
 
 def main(argv):
-    if len(sys.argv) > 2:
-         delete_repository_by_name(name=sys.argv[1], project_id=sys.argv[2])
+    if len(sys.argv) > 3:
+         delete_repository_by_name(token=sys.argv[1], name=sys.argv[2], project_id=sys.argv[3])
     else:
         print("Not all parameters are passed. The correct call format: rm_images.py private-token name_image project_id")
 

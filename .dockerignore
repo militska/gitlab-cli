@@ -1,0 +1,5 @@
+# игнорировать каталоги .git и .cache
+.git
+venv/
+.idea/
+Dockerfile
