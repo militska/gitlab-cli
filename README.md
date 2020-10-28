@@ -1,7 +1,7 @@
-## Удаление репозитория с образами
+## Remove repository from registry 
 
-Изначально, тулза предназначена для джобов гитлаба.
+this tool, was wrote for run inside gitlab`s runner 
 
-#### Способ применения:
+#### Example:
 
          python /usr/src/app/rm_images.py {gitlab-api-token} {имя репы в реджистри} {ид репы с проектом}
