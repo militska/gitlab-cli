@@ -1,4 +1,4 @@
-## Remove repository from registry 
+## Remove a repository from registry 
 
 this tool, was wrote for run inside gitlab`s runner 
 
